@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.tete {
+    text-align: center;
+    background-color: grey;
+}
+
+.debut {
+    text-align: center;
+}
+
+button {
+    border-radius: 50px;
+    background-color: #FF79DA;
+    color: white;
+    padding: 1em;
+}
+
+.etapes ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.etapes li {
+    margin: 1em;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+article img {
+    width: 100%;
+}
+
+article {
+    margin: 1em;
+}
+
+.resto {
+    background-color: grey;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
